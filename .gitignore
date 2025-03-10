@@ -25,3 +25,9 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# editor
+.vscode/
+.idea/
+.dart_tool/
+*.iml
