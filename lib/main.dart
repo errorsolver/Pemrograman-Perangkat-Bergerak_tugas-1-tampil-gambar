@@ -30,7 +30,6 @@ class MainApp extends StatelessWidget {
                   alignment: Alignment.center,
                   padding: EdgeInsets.all(5),
 
-                  // color: Colors.white,
                   child: Image.asset(
                     'img/profile_placeholder.png',
                     width: MediaQuery.of(context).size.width * 0.25,
@@ -45,11 +44,9 @@ class MainApp extends StatelessWidget {
                   color: Colors.white54,
                 ),
 
-                // Row(children: Divider()),
                 Container(
                   padding: EdgeInsets.all(5),
                   alignment: Alignment.center,
-                  // color: Colors.white,
                   child: Column(
                     children: [
                       Table(
@@ -58,7 +55,6 @@ class MainApp extends StatelessWidget {
                           1: IntrinsicColumnWidth(),
                           2: IntrinsicColumnWidth(),
                         },
-                        // border: TableBorder.all(),
                         children: [
                           TableRow(
                             children: [
